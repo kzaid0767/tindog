@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins';
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.container{
+    background-color: rgb(255, 244, 231);
+    width: 35rem;
+    margin: 1rem auto;
+    border: 0.4rem solid rgb(46, 40, 40);
+    border-radius: 1rem;
+}
+
+.top-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5.0625rem;
+}
+
+.logo{
+    width: 5.25rem;
+    height: 2.625rem;
+}
+
+.icon{
+    width: 2.125rem;
+    height: 2.125rem;
+}
+
+.main-pic{
+    width: 33.375rem;
+    height: 47rem;
+    margin: 0 auto;
+    background-size: cover;
+    border-radius: 0.5rem;
+}
+h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 36px;
+    color: #F8F8F8;
+    margin: 0;
+}
+p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    margin: 0;
+    color: #B7B7B7;
+
+}
+
+.bottom-section{
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-icons{
+    width: 5.74rem;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    width: 3.0rem;
+    border-radius: 50%;
+    padding: 0.7rem;
+    margin: 0 0.5rem;
+    
+}
+
+.img-bottom{
+    width: 1.25rem;
+}
+
+.heart:hover{
+    background: #DBFFF4;
+    box-shadow: 0px 10px 20px #CCF1E6;
+}
+
+.cross:hover{
+    background: #FFE7EF;
+    box-shadow: 0px 10px 20px #EDD9DF;
+}
